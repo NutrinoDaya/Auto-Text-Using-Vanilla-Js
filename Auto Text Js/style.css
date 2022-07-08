@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+* {
+  box-sizing: border-box;
+}
+.backgroundImg{
+  background-image: url('image1.png');
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Edu QLD Beginner', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.Text{
+  position: relative;
+  top: 100px;
+  left: 650px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+.SpeedControl{
+  color: white;
+  font-size: 50px;
+ position: relative;
+ top: 500px;
+ left: 800px;
+}
+.SpeedControl .speedbox {
+  width:60px;
+  height:50px;
+  font-size: 35px;
+  position: relative;
+  top: -30px;
+  left: 60px;
+}
+div {
+  position: absolute;
+  bottom: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: rgb(233, 233, 233);
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
